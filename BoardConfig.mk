@@ -31,7 +31,7 @@ TARGET_USES_DRM_PP := true
 TARGET_KERNEL_CONFIG := beryllium_defconfig
 BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive
 TARGET_KERNEL_SOURCE := kernel/xiaomi/beryllium
-TARGET_KERNEL_CROSS_COMPILE_PREFIX := aarch64-linux-android-
+# TARGET_KERNEL_CROSS_COMPILE_PREFIX := aarch64-linux-android-
 TARGET_KERNEL_CLANG_COMPILE := true
 TARGET_KERNEL_CLANG_VERSION := 9.0.3
 
